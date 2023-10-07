@@ -1,0 +1,6 @@
+create table login(
+id  int not null auto_increment,
+email nvarchar(255), 
+password nvarchar(255),
+primary key(id)
+)
